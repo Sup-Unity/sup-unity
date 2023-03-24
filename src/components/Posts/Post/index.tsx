@@ -1,4 +1,4 @@
-import "./Post.scss";
+import "./Post.css";
 
 type Props = {
   city: string;

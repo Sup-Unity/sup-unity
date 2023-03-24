@@ -14,29 +14,29 @@
 
 .img-container {
   width: 100%;
+}
 
-  & img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: contain;
-    margin: 0 auto;
-  }
+.img-container img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  margin: 0 auto;
 }
 
 .post-csr-list {
   list-style-type: none;
+}
 
-  & li {
-    margin-bottom: 0;
-  }
+.post-csr-list li {
+  margin-bottom: 0;
 }
 
 .likes-heart {
   font-size: 17px;
   transition: color 0.15s;
+}
 
-  &:hover {
-    color: red;
-    cursor: pointer;
-  }
+.likes-heart:hover {
+  color: red;
+  cursor: pointer;
 }
