@@ -1,6 +1,6 @@
 import type { TLocalPost } from "../../../types";
 
-import "./LocalPost.scss";
+import "./LocalPost.css";
 
 const LocalPost = ({
   type,
