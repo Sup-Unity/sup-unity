@@ -1,4 +1,4 @@
-import "./CompletedCommitment.scss";
+import "./CompletedCommitment.css";
 
 type Props = {
   text: string;
