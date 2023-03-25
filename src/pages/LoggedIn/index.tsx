@@ -1,6 +1,6 @@
 import { useContext } from "react";
 
-import "./LoggedIn.scss";
+import "./LoggedIn.css";
 import type { TTrackedCommitment } from "../../types";
 
 // TempData
