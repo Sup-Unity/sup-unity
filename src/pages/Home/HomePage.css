@@ -1,10 +1,10 @@
 .sort-choice {
   padding-inline: 8px;
+}
 
-  &:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
+.sort-choice:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .selected {
