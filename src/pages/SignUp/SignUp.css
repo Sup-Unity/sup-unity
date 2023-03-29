@@ -1,0 +1,91 @@
+.signup-form-wrapper {
+  --btn-color: #6764f4;
+  width: 100%;
+  margin-top: 6rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.signup-form-wrapper button {
+  display: block;
+  border: 2px solid var(--btn-color);
+  border-radius: 12px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: var(--btn-color);
+  margin: 0 auto 12px;
+  padding: 14px 30px;
+}
+
+.signup-form-wrapper button:hover {
+  color: var(--btn-color);
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.signup-form {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.signup-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form-group label {
+  margin-left: 3px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.signup-form-group input {
+  display: inline-block;
+  border-radius: 8px;
+  border: 1px solid var(--dark-grey);
+}
+
+.signup-form-group:not(:has(+ #password-validation-list)) {
+  margin-bottom: 12px;
+}
+
+#password-validation-list {
+  margin: 5px 0 12px;
+  color: var(--danger-red);
+  font-weight: 600;
+}
+
+#password-validation-list ul {
+  list-style: none;
+}
+
+#password-validation-list ul li {
+  font-size: 12px;
+}
+
+#password-validation-list ul li.validated {
+  color: var(--greyed-out);
+  text-decoration: line-through;
+}
+
+p[role="alert"] {
+  font-size: 12px;
+  text-align: end;
+  color: var(--danger-red);
+}
+
+.signup-have-account {
+  font-size: 12px;
+}
+
+.signup-have-account a {
+  color: inherit;
+  transition: color 50ms;
+}
+
+.signup-have-account a:hover {
+  color: var(--btn-color);
+}
