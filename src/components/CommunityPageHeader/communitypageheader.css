@@ -1,0 +1,74 @@
+/* Order
+ size
+ padding
+ border
+ margins
+ color
+ 
+ font stuff
+
+ child arrangement
+
+*/
+/* Desktop */
+
+:root {
+    --largest-text: 40px;
+    --medium-text: 25px;
+    --small-text: 15.5px;
+    --tiny-text: 10px
+}
+
+.header { 
+    height: 200px;
+    width: 100vw;
+     
+    background-image: url("../../tempData/images/edinburgh.jpg");
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.title_box{
+    height: 160px;
+    width: 580px;
+    border-radius: 5px; 
+    margin-right: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.group_name{
+    font-size: var(--largest-text);
+    font-weight: 400;
+}
+
+.title_box > div > p {
+    font-size: var(--small-text);
+}
+
+.join_button{
+    height: 40px;
+    padding: 10px;
+    
+    background-color: lightgray;
+
+    font-size: var(--small-text);
+}
+
+@media only screen and (max-width: 700px){
+  .title_box{
+    width: 82vw;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin: auto;
+
+
+  }   
+}
