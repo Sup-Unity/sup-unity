@@ -6,7 +6,7 @@ const Banner = () => {
         alt=""
       />
       <br />
-      <i>"<b>Supp</b>ort your comm<b>Unity</b>."</i>
+      <i>"<b>Sup</b>port your comm<b>Unity</b>."</i>
       <br />
     </>
   );
