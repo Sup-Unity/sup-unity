@@ -9,9 +9,10 @@ import {comment_info} from "../../tempData/CommentList_data"
 import CreateCommentCard from "../../components/CreateCommentCard/CreateCommentCard"
 import {groupName, numMembers, background} from "../../tempData/CommunityPageHeader_data"
 import {title, description, images} from "../../tempData/IssueTopic_data"
+import AboutCommunity from "../../components/AboutCommunity/AboutCommunity";
+import { community_description } from "../../tempData/AboutCommunity_data";
 
 export default function IssuePage(){
-
 
     return(
         <div>
@@ -28,7 +29,7 @@ export default function IssuePage(){
                     <CommentList comment_info={comment_info} />
                 </div>
                 <div className = "side">
-
+                    <AboutCommunity description= {community_description} />
                 </div>
                 <div className="space2"></div>
                 <div className="space1"></div>

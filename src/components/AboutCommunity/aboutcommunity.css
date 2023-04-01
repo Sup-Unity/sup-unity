@@ -1,0 +1,26 @@
+.about_community{
+    width: 100%;
+    margin: auto;
+   
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 2px lightgray;
+    border: 1px solid lightgray;
+    padding-bottom: 10px;
+}    
+
+.about_title{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about_description{
+    width: 94%;
+    margin: auto;
+    font-size: 15px;
+    text-align: left;
+
+}
