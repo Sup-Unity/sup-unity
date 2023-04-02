@@ -1,4 +1,4 @@
-import "./LoginForm.css";
+import LFStyles from "./LoginForm.module.css";
 
 const LoginForm = () => {
   function logout() {
@@ -26,7 +26,7 @@ const LoginForm = () => {
           />
         </div>
       </div>
-      <div className="btn-div">
+      <div className={LFStyles.btnDiv}>
         <a
           className="button button-primary"
           href="https://supunityproduction.azurewebsites.net/LoggedIn.html"

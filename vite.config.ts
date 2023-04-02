@@ -13,6 +13,12 @@ export default defineConfig({
     setupFiles: "./src/test/setup.ts",
     css: true,
   },
+  css: {
+    modules: {
+      generateScopedName: "[name]_[local]_[hash:base64:3]",
+      localsConvention: "camelCase",
+    },
+  },
 } as UserConfigExport);
 
 // Should not have to typecast the config object, but couldn't get it to work the way the docs explain. Ideally the two reference types at top of file should take care of this.
