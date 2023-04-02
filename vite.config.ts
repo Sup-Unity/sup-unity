@@ -16,7 +16,7 @@ export default defineConfig({
   css: {
     modules: {
       generateScopedName: "[name]_[local]_[hash:base64:3]",
-      localsConvention: "camelCase",
+      localsConvention: "camelCaseOnly",
     },
   },
 } as UserConfigExport);

@@ -1,0 +1,92 @@
+.signup-form-wrapper {
+  --btn-color: #6764f4;
+  width: 100%;
+  margin-top: 6rem;
+  font-family: "Raleway", sans-serif;
+
+  & button {
+    display: block;
+    border: 2px solid var(--btn-color);
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--btn-color);
+    margin: 0 auto 12px;
+    padding: 14px 30px;
+
+    &:hover {
+      color: var(--btn-color);
+      background-color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.signup-form {
+  width: fit-content;
+  margin: 0 auto;
+
+  & p[role="alert"] {
+    font-size: 12px;
+    text-align: center;
+    color: var(--danger-red);
+  }
+}
+
+.signup-form-group {
+  display: flex;
+  flex-direction: column;
+
+  & label {
+    margin-left: 3px;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  & input {
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid var(--dark-grey);
+  }
+
+  &:not(:has(+ #password-validation-list)) {
+    margin-bottom: 12px;
+  }
+}
+
+#password-validation-list {
+  margin: 5px 0 12px;
+  color: var(--danger-red);
+  font-weight: 600;
+
+  & ul {
+    list-style: none;
+
+    & li {
+      font-size: 12px;
+
+      &.validated {
+        color: var(--greyed-out);
+        text-decoration: line-through;
+      }
+    }
+  }
+}
+
+.signup-have-account {
+  font-size: 12px;
+
+  & a {
+    color: inherit;
+    transition: color 50ms;
+
+    &:hover {
+      color: var(--btn-color);
+    }
+  }
+}
