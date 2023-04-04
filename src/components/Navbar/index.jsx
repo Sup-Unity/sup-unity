@@ -1,8 +1,11 @@
-import "./navbar.css";
-import bird from "../../tempData/images/bird.jpg";
 import { useState } from "react";
 import {useContext} from 'react';
 /*import { LoginContext } from "../../context/LoginContext"; */
+import "./navbar.css";
+
+import bird from "../../tempData/images/bird.jpg";
+
+
 
 
 export default function Navbar() {

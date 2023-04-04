@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./createcommentcard.css";
+
 import edinburgh from "../../tempData/images/edinburgh.jpg";
 
 export default function CreateCommentCard() {

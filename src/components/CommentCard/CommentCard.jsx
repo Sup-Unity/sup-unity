@@ -1,9 +1,10 @@
+import { BiComment } from "react-icons/bi";
+import { AiFillLike, AiOutlineLike } from "react-icons/ai";
 import "./commentcard.css";
 
 import edinburgh from "../../tempData/images/edinburgh.jpg";
 
-import { BiComment } from "react-icons/bi";
-import { AiFillLike, AiOutlineLike } from "react-icons/ai";
+
 
 const jpgMap = {
   edinburgh,

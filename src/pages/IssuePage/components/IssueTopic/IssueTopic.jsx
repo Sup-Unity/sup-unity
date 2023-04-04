@@ -1,15 +1,19 @@
-import "./issuetopic.css";
+import { useContext } from "react";
 import { useState } from "react";
+import { MdDone } from "react-icons/md";
+import { BiComment, BiLike, BiEdit } from "react-icons/bi";
+import { AiFillLike, AiOutlineLike } from "react-icons/ai";
+import "./issuetopic.css";
+
 
 import bird from "../../../../tempData/images/bird.jpg";
 import dog from "../../../../tempData/images/dog.jpeg";
 import cat from "../../../../tempData/images/cat.jpeg";
 
 
-import { BiComment, BiLike, BiEdit } from "react-icons/bi";
-import { AiFillLike, AiOutlineLike } from "react-icons/ai";
-import { MdDone } from "react-icons/md";
-import { useContext } from "react";
+
+
+
 /* import { LoginContext } from "../../context/LoginContext"; */
 
 const imageMap = {

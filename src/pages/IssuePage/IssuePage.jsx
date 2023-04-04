@@ -1,17 +1,21 @@
+
+
+
+
 import Navbar from "../../components/Navbar";
 import CommunityPageHeader from "../../components/CommunityPageHeader";
 import CommentList from "../../components/CommentList/CommentList"
-
 import IssueTopic from "./components/IssueTopic/IssueTopic";
+import AboutCommunity from "../../components/AboutCommunity/AboutCommunity";
+import CreateCommentCard from "../../components/CreateCommentCard/CreateCommentCard"
+import IssueFeed from "../../components/IssueFeed/IssueFeed";
 import "./components/IssueTopic/issuetopic.css"
 import "./issue_page.css"
+
 import {comment_info} from "../../tempData/CommentList_data"
-import CreateCommentCard from "../../components/CreateCommentCard/CreateCommentCard"
 import {groupName, numMembers, background} from "../../tempData/CommunityPageHeader_data"
 import {title, description, images} from "../../tempData/IssueTopic_data"
-import AboutCommunity from "../../components/AboutCommunity/AboutCommunity";
 import { community_description } from "../../tempData/AboutCommunity_data";
-import IssueFeed from "../../components/IssueFeed/IssueFeed";
 import { feed_info } from "../../tempData/IssueFeed_data";
 
 export default function IssuePage(){
