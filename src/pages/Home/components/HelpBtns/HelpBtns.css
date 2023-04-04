@@ -1,9 +1,0 @@
-.help-btn-container {
-  display: flex;
-}
-
-@media only screen and (max-width: 1000px) {
-  .help-btn-container {
-    flex-direction: column;
-  }
-}
