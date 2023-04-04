@@ -1,0 +1,36 @@
+.request_feed{
+    font-size: 24px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 2px lightgray;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+.scroll{
+    overflow: auto;    
+}
+
+.feed_item{
+    width: 92%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: lightgray solid 2px;
+    border-radius: 5px;
+}
+
+.feed_title {
+    font-size: 15.5px;  
+}
+
+.feed_image{
+    width: 84%;
+    
+}

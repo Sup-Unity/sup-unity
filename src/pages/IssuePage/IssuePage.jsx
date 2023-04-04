@@ -11,6 +11,8 @@ import {groupName, numMembers, background} from "../../tempData/CommunityPageHea
 import {title, description, images} from "../../tempData/IssueTopic_data"
 import AboutCommunity from "../../components/AboutCommunity/AboutCommunity";
 import { community_description } from "../../tempData/AboutCommunity_data";
+import IssueFeed from "../../components/IssueFeed/IssueFeed";
+import { feed_info } from "../../tempData/IssueFeed_data";
 
 export default function IssuePage(){
 
@@ -30,6 +32,7 @@ export default function IssuePage(){
                 </div>
                 <div className = "side">
                     <AboutCommunity description= {community_description} />
+                    <IssueFeed feed_info={feed_info} />
                 </div>
                 <div className="space2"></div>
                 <div className="space1"></div>
