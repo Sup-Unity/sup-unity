@@ -1,15 +1,13 @@
-const Banner = () => {
+import handsphoto from "../../../../tempData/images/handsphoto.jpg";
+import "./banner.css"
+export default function Banner(){
   return (
-    <>
-      <img
-        src="https://www.dropbox.com/s/wpthh8h4hdh0msz/supunity_logo_negative.png?raw=1"
-        alt=""
-      />
-      <br />
-      <i>"<b>Sup</b>port your comm<b>Unity</b>."</i>
-      <br />
-    </>
+    <div>
+        <img className = "banner-image" src = {handsphoto} alt = "landing-page-banner" />
+        <h1>SUPUNITY</h1>
+        <p><b>Sup</b>port Your Comm<b>unity</b></p>
+    </div>
   );
 };
 
-export default Banner;
+
