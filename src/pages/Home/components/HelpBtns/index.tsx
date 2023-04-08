@@ -1,8 +1,8 @@
-import "./HelpBtns.module.scss";
+import HelpBtnsStyles from "./HelpBtns.module.scss";
 
 const HelpBtns = () => {
   return (
-    <div className="help-btn-container">
+    <div className={HelpBtnsStyles.helpBtnContainer}>
       <div className="help-btn">
         <a href="https://abeliefnowlinux.azurewebsites.net/give-help.html">
           <img src="https://i.imgur.com/36UvuXc.png" alt="Give help button" />

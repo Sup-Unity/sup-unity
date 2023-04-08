@@ -6,7 +6,7 @@ import Banner from "./components/Banner";
 import HelpBtns from "./components/HelpBtns";
 import Post from "../../components/Posts/Post";
 
-import "./HomePage.module.scss";
+import HPStyles from "./HomePage.module.scss";
 
 type TSortBy = "POPULAR" | "LOCAL" | "NEW";
 
@@ -26,21 +26,27 @@ const Home = () => {
             <p>
               <b>SORT BY</b>
               <span
-                className={`sort-choice ${sortBy === "POPULAR" && "selected"}`}
+                className={`${HPStyles.sortChoice} ${
+                  sortBy === "POPULAR" && HPStyles.selected
+                }`}
                 onClick={() => setSortBy("POPULAR")}
               >
                 POPULAR
               </span>
               -
               <span
-                className={`sort-choice ${sortBy === "LOCAL" && "selected"}`}
+                className={`${HPStyles.sortChoice} ${
+                  sortBy === "LOCAL" && HPStyles.selected
+                }`}
                 onClick={() => setSortBy("LOCAL")}
               >
                 LOCAL
               </span>
               -
               <span
-                className={`sort-choice ${sortBy === "NEW" && "selected"}`}
+                className={`${HPStyles.sortChoice} ${
+                  sortBy === "NEW" && HPStyles.selected
+                }`}
                 onClick={() => setSortBy("NEW")}
               >
                 NEW
