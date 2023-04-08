@@ -1,3 +1,49 @@
-.banner-image{
-    width: 100%;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.container {
+    width: 100vw;
+    height: 600px;
+   
+
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.banner{
+    width: 100vw;
+    height: 500px;
+    background-image: url("../../../../tempData/images/handsphoto.jpg");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.banner-text-container{
+    margin-top: 0px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    height: 200px;
+}
+
+.banner-title{
+    font-weight: 800;
+    font-size: 100px; 
+}
+
+.banner-subtitle{
+
 }
