@@ -11,9 +11,6 @@ import dog from "../../../../tempData/images/dog.jpeg";
 import cat from "../../../../tempData/images/cat.jpeg";
 
 
-
-
-
 /* import { LoginContext } from "../../context/LoginContext"; */
 
 const imageMap = {

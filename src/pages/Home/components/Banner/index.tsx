@@ -7,7 +7,7 @@ export default function Banner(){
     </div>
     <div className="banner-text-container">
           <h1 className = "banner-title">SUPUNITY</h1>
-          <p className= "banner-text"><b>Sup</b>port Your Comm<b>unity</b></p>
+          <p className= "banner-subtitle"><b>Sup</b>port Your Comm<b>unity</b></p>
     </div>
     <div className= "input-button-container">
       <input className = "input" placeholder = "Your email" />
