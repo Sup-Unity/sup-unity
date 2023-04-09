@@ -5,8 +5,8 @@
   margin-top: 50px;
 }
 
-#onboarding-username {
-  margin-left: 15px;
+.onboarding-username {
+  margin: 0 0 15px 15px;
 }
 
 .error {

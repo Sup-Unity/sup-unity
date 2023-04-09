@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import "./Onboarding.module.css";
+import OBStyles from "./Onboarding.module.css";
 
 import UserContext from "../../context/user-context";
 
@@ -42,7 +42,7 @@ const OnboardingPage = () => {
 
   return (
     <main>
-      <div className="page-wrapper">
+      <div className={OBStyles.pageWrapper}>
         <h1>Onboarding:</h1>
         <form onSubmit={(e) => updateUsername(e)}>
           <label>
@@ -50,6 +50,7 @@ const OnboardingPage = () => {
             <input
               type="text"
               id="onboarding-username"
+              className={OBStyles.onboardingUsername}
               name="username"
               placeholder="username"
               value={username}
@@ -57,9 +58,11 @@ const OnboardingPage = () => {
             />
           </label>
           {error ? (
-            <p className="error text-center">Username already taken.</p>
+            <p className={`${OBStyles.error} ${OBStyles.textCenter}`}>
+              Username already taken.
+            </p>
           ) : null}
-          <button type="submit" className="block-center">
+          <button type="submit" className={OBStyles.blockCenter}>
             Submit
           </button>
         </form>
