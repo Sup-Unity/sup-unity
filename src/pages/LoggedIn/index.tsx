@@ -1,6 +1,6 @@
 import { useContext } from "react";
 
-import "./LoggedIn.module.css";
+import LIStyles from "./LoggedIn.module.css";
 import type { TTrackedCommitment } from "../../types";
 
 // TempData
@@ -20,10 +20,10 @@ const LoggedInPage = () => {
   const { user } = useContext(UserContext);
   return (
     <>
-      <div className="container font-raleway">
+      <div className={`container ${LIStyles.fontRaleway}`}>
         <div className="row">
           <div className="u-full-width">
-            <div className="u-full-width center-child  mtb-2p">
+            <div className={LIStyles.centerChild}>
               <img
                 src="https://locallifeline.files.wordpress.com/2022/07/logo-1.png?w=458&h=125"
                 width="200px"
@@ -31,32 +31,41 @@ const LoggedInPage = () => {
               />
             </div>
             <hr />
-            <p className="welcome-msg centerText">
+            <p className={`${LIStyles.welcomeMsg} centerText`}>
               Welcome to your community, {user ? user.username : "Current User"}
               !
             </p>
             <hr />
             <h2 className="centerText"> Profile!</h2>
-            <p className="centerText profile-info">User12313123 - John Smith</p>
-            <p className="centerText profile-info">
+            <p className={`centerText ${LIStyles.profileInfo}`}>
+              User12313123 - John Smith
+            </p>
+            <p className={`centerText ${LIStyles.profileInfo}`}>
               &#9745; - Social Media Linked
             </p>
-            <p className="centerText profile-info">
+            <p className={`centerText ${LIStyles.profileInfo}`}>
               &#9745; - Sponsored by 5 community members
             </p>
             <Commitments
               commitments={trackedCommitments as TTrackedCommitment[]}
             />
             <p className="centerText">See all...</p>
-            <div className="center-child">
+            <div className={LIStyles.centerChild}>
               <img
                 src="https://abeliefnowlinux.azurewebsites.net/images/timechart.png"
                 alt="Time chart of 2021 to 2022"
               />
             </div>
-            <p id="commitments-fulfilled">95% of commitments fulfilled</p>
+            <p
+              id="commitments-fulfilled"
+              className={LIStyles.commitmentsFulfilled}
+            >
+              95% of commitments fulfilled
+            </p>
             <hr />
-            <h2 className="centerText section-header">Community 97006</h2>
+            <h2 className={`centerText ${LIStyles.sectionHeader}`}>
+              Community 97006
+            </h2>
             <DonationsAndFulfilled />
             <hr />
             <OpenRequests />
