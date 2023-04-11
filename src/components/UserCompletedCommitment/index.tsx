@@ -1,4 +1,4 @@
-import "./CompletedCommitment.css";
+import CCStyles from "./CompletedCommitment.module.css";
 
 type Props = {
   text: string;
@@ -7,10 +7,10 @@ type Props = {
 
 const UserCompletedCommitment = ({ text, likes }: Props) => {
   return (
-    <div className="completed-commitment-container">
-      <p className="completed-commitment-text centerText">{text}</p>
-      <p className="centerText mb-0">
-        <span className="likes-heart">&#10084;</span> x{likes}
+    <div className={CCStyles.completedCommitmentContainer}>
+      <p className={CCStyles.completedCommitmentText}>{text}</p>
+      <p>
+        <span>&#10084;</span> x{likes}
       </p>
     </div>
   );
