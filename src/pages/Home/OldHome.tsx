@@ -6,7 +6,7 @@ import Banner from "./components/Banner";
 import HelpBtns from "./components/HelpBtns";
 import Post from "../../components/Posts/Post";
 
-import "./HomePage.css";
+import "./homepage.css";
 
 type TSortBy = "POPULAR" | "LOCAL" | "NEW";
 

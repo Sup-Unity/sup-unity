@@ -13,6 +13,7 @@ import LoggedInPage from "./pages/LoggedIn";
 import OnboardingPage from "./pages/Onboarding";
 import SignUpPage from "./pages/SignUp";
 import IssuePage from "./pages/IssuePage/IssuePage";
+import IssueFeedPage from "./pages/IssueFeed/IssueFeedPage"
 
 function App() {
   const [user, setUser] = useState<TUser | null>(null);
@@ -23,7 +24,8 @@ function App() {
         <Route path="logged-in" element={<LoggedInPage />} />
         <Route path="onboarding" element={<OnboardingPage />} />
         <Route path="sign-up" element={<SignUpPage />} />
-        <Route path = "issue" element={<IssuePage />} />
+        <Route path="issue" element={<IssuePage />} />
+        <Route path="issuefeedpage" element={<IssueFeedPage /> } />
       </Routes>
     </UserContext.Provider>
   );

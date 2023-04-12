@@ -29,7 +29,7 @@ export default function IssueFeed({ feed_info }) {
 
   return (
     <div className="request_feed">
-      Request Feed
+      Issue Feed
       <div className="scroll">{renderedFeed}</div>
     </div>
   );

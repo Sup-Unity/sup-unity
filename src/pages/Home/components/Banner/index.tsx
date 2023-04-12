@@ -1,6 +1,21 @@
-import handsphoto from "../../../../tempData/images/handsphoto.jpg";
+import {useState} from "react";
 import "./banner.css"
+
+
+
 export default function Banner(){
+  const [email, setEmail] = useState("");
+
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    
+  }
+
+  const handleChange = (event) =>{
+    setEmail(event.target.value);
+  }
+
+
   return (
     <div className= "container">
     <div className = "banner">
@@ -9,10 +24,16 @@ export default function Banner(){
           <h1 className = "banner-title">SUPUNITY</h1>
           <p className= "banner-subtitle"><b>Sup</b>port Your Comm<b>unity</b></p>
     </div>
-    <div className= "input-button-container">
-      <input className = "input" placeholder = "Your email" />
+    <form className= "input-button-container" onSubmit = {handleFormSubmit}>
+      <input 
+            className = "input"
+             placeholder = "Your email" 
+             value = {email}
+             onChange = {handleChange}
+             
+             />
       <button className = "button">Get Started</button>
-    </div>
+    </form>
     </div>
   );
 };
