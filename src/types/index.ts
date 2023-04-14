@@ -21,4 +21,5 @@ export type TLocalPost = {
 
 export type TUser = {
   username: string;
+  userId: string;
 };

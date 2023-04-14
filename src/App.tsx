@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 import LoggedInPage from "./pages/LoggedIn";
 import OnboardingPage from "./pages/Onboarding";
 import SignUpPage from "./pages/SignUp";
+import ProfilePage from "./pages/Profile";
 
 function App() {
   const [user, setUser] = useState<TUser | null>(null);
@@ -22,6 +23,7 @@ function App() {
         <Route path="logged-in" element={<LoggedInPage />} />
         <Route path="onboarding" element={<OnboardingPage />} />
         <Route path="sign-up" element={<SignUpPage />} />
+        <Route path="profile" element={<ProfilePage />} />
       </Routes>
     </UserContext.Provider>
   );
