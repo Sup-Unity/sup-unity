@@ -23,17 +23,18 @@ export default function IssueFeed({ feed_info, isMaximized }) {
           src={imageMap[item.imagename]}
           alt={item.imagename}
         />
-        <div>
-          {item.description}
-        </div>
+        { isMaximized && <div>{item.description}</div> }
       </div>
     );
   });
 
   return (
-    <div className="request_feed">
+    
+     <div className="request_feed_side_bar">
       Issue Feed
-      <div className="scroll">{renderedFeed}</div>
+       <div className="scroll">{renderedFeed}</div>
     </div>
+
+    
   );
 }
