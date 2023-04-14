@@ -12,7 +12,7 @@ const imageMap = {
   volunteers_neighborhood_cleanup,
 };
 
-export default function IssueFeed({ feed_info }) {
+export default function IssueFeed({ feed_info, isMaximized }) {
 
   const renderedFeed = feed_info.map((item) => {
     return (
@@ -23,6 +23,9 @@ export default function IssueFeed({ feed_info }) {
           src={imageMap[item.imagename]}
           alt={item.imagename}
         />
+        <div>
+          {item.description}
+        </div>
       </div>
     );
   });

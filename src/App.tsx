@@ -25,7 +25,7 @@ function App() {
         <Route path="onboarding" element={<OnboardingPage />} />
         <Route path="sign-up" element={<SignUpPage />} />
         <Route path="issue" element={<IssuePage />} />
-        <Route path="issuefeedpage" element={<IssueFeedPage /> } />
+        <Route path="issuefeed" element={<IssueFeedPage /> } />
       </Routes>
     </UserContext.Provider>
   );

@@ -1,7 +1,4 @@
-
-
-
-
+import { useState } from "react";
 import Navbar from "../../components/Navbar";
 import CommunityPageHeader from "../../components/CommunityPageHeader";
 import CommentList from "../../components/CommentList/CommentList"
@@ -19,6 +16,7 @@ import { community_description } from "../../tempData/AboutCommunity_data";
 import { feed_info } from "../../tempData/IssueFeed_data";
 
 export default function IssuePage(){
+    const [isMaximized, setIsMaximized] = useState(false);
 
     return(
         <div>
@@ -36,7 +34,7 @@ export default function IssuePage(){
                 </div>
                 <div className = "side">
                     <AboutCommunity description= {community_description} />
-                    <IssueFeed feed_info={feed_info} />
+                    <IssueFeed feed_info={feed_info} isMaximized = {isMaximized} />
                 </div>
                 <div className="space2"></div>
                 <div className="space1"></div>
