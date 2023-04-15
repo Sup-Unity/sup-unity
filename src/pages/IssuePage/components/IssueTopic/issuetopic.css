@@ -14,7 +14,7 @@
 }
 
 .description{
-    font-size: 14px;
+    font-size: 16px;
     text-align: start;
 }
 
@@ -25,7 +25,7 @@
 
 .display_images{
     text-align: left;
-    font-size: 15px;
+    font-size: 16px;
     color: rgb(3, 33, 134);
     font-weight: 500;
 }
