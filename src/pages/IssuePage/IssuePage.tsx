@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Navbar from "../../components/Navbar";
 import CommunityPageHeader from "../../components/CommunityPageHeader";
 import CommentList from "../../components/CommentList/CommentList"
@@ -8,6 +7,8 @@ import CreateCommentCard from "../../components/CreateCommentCard/CreateCommentC
 import IssueFeed from "../../components/IssueFeed/IssueFeed";
 import "./components/IssueTopic/issuetopic.css"
 import "./issue_page.css"
+
+import { useState } from "react";
 
 import {comment_info} from "../../tempData/CommentList_data"
 import {groupName, numMembers, background} from "../../tempData/CommunityPageHeader_data"

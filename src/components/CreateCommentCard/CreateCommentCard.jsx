@@ -1,5 +1,6 @@
-import { useState } from "react";
 import "./createcommentcard.css";
+
+import { useState } from "react";
 
 import edinburgh from "../../tempData/images/edinburgh.jpg";
 

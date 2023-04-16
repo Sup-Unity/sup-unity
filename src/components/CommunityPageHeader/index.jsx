@@ -2,11 +2,9 @@ import "./communitypageheader.css";
 
 import edinburgh from "../../tempData/images/edinburgh.jpg";
 
-
 const jpgMap = {
   edinburgh,
 };
-
 
 export default function CommunityPageHeader({ groupName, numMembers, background }) {
   return (

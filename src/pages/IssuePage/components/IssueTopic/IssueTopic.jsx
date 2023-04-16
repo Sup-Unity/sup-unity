@@ -1,10 +1,10 @@
+import "./issuetopic.css";
+
 import { useContext } from "react";
 import { useState } from "react";
 import { MdDone } from "react-icons/md";
 import { BiComment, BiLike, BiEdit } from "react-icons/bi";
 import { AiFillLike, AiOutlineLike } from "react-icons/ai";
-import "./issuetopic.css";
-
 
 import bird from "../../../../tempData/images/bird.jpg";
 import dog from "../../../../tempData/images/dog.jpeg";

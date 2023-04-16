@@ -1,20 +1,16 @@
-import { useContext } from "react";
-
-import "./LoggedIn.css";
-import type { TTrackedCommitment } from "../../types";
-
-// TempData
-import { trackedCommitments } from "../../tempData";
-
-// Context
-import UserContext from "../../context/user-context";
-
-// Components
 import Commitments from "./components/Commitments";
 import DonationsAndFulfilled from "./components/DonationsAndFulfilled";
 import OpenRequests from "./components/OpenRequests";
 import Donate from "../../components/Donate";
 import SubmitRequest from "./components/SubmitRequest";
+import UserContext from "../../context/user-context";
+import type { TTrackedCommitment } from "../../types";
+import "./LoggedIn.css";
+
+import { useContext } from "react";
+
+import { trackedCommitments } from "../../tempData";
+
 
 const LoggedInPage = () => {
   const { user } = useContext(UserContext);

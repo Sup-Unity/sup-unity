@@ -1,5 +1,6 @@
-import { useState } from "react";
 import "./Donate.css";
+
+import { useState } from "react";
 
 type Props = {};
 

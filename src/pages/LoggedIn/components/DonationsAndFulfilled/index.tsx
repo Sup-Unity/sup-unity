@@ -1,8 +1,5 @@
-// DUMMY DATA
-import { fulfilledCommitments } from "../../../../tempData";
-
-// Components
 import UserCompletedCommitment from "../../../../components/UserCompletedCommitment";
+import { fulfilledCommitments } from "../../../../tempData";
 
 const DonationsAndFulfilled = () => {
   return (

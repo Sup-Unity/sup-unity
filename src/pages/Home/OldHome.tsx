@@ -1,12 +1,10 @@
-import { useState } from "react";
-
 import LoginForm from "../../components/LoginForm";
-
 import Banner from "./components/Banner";
 import HelpBtns from "./components/HelpBtns";
 import Post from "../../components/Posts/Post";
-
 import "./homepage.css";
+
+import { useState } from "react";
 
 type TSortBy = "POPULAR" | "LOCAL" | "NEW";
 

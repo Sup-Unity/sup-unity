@@ -1,7 +1,4 @@
-// Types
 import { TTrackedCommitment } from "../../../../types";
-
-// Components
 import CommitmentTracked from "../../../../components/CommitmentTracked";
 
 type Props = {

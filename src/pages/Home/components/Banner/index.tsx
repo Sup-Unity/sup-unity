@@ -1,7 +1,6 @@
-import {useState} from "react";
 import "./banner.css"
 
-
+import {useState} from "react";
 
 export default function Banner(){
   const [email, setEmail] = useState("");

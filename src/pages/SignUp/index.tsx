@@ -1,6 +1,6 @@
 import MainLayout from "../../layouts/LoggedOutLayout";
-
 import "./SignUp.scss";
+
 import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";

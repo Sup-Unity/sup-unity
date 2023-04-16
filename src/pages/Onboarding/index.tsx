@@ -1,9 +1,8 @@
-import React, { useContext, useState } from "react";
-import { useNavigate } from "react-router-dom";
-
+import UserContext from "../../context/user-context";
 import "./Onboarding.css";
 
-import UserContext from "../../context/user-context";
+import React, { useContext, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const OnboardingPage = () => {
   const { setUser } = useContext(UserContext);
