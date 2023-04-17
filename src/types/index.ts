@@ -22,4 +22,12 @@ export type TLocalPost = {
 export type TUser = {
   username: string;
   userId: string;
+  profilePic: string;
+  about: string | null;
+  verifications: {
+    email: boolean;
+    phone: boolean;
+    identity: boolean;
+    referral: boolean;
+  };
 };

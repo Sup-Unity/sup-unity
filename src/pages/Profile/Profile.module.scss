@@ -5,6 +5,7 @@
   outline: 1px solid black;
   padding: 10px 25px;
   border-radius: 8px;
+  margin-top: 30px;
 }
 
 .profile-heading {
@@ -36,5 +37,16 @@
 
   & button {
     height: fit-content;
+    padding: 5px 8px;
+    font-size: 14px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
+}
+
+.profile-textarea {
+  width: 90%;
+  min-height: 150px;
 }
