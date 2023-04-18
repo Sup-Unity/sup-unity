@@ -10,12 +10,12 @@
 
 }
 
-.site_logo{
+.site-logo{
     height: 40px;
     margin-left: 20px;
 }
 
-.nav_links {
+.nav-links {
     margin-right: 20px;
 
     display: flex;
@@ -24,7 +24,7 @@
 
 }
 
-.nav_links > a {
+.nav-links > a {
     text-decoration: none;
     margin-left: 6px;
     margin-right: 6px;
@@ -33,7 +33,7 @@
     color: white;
 }
 
-.profile_image{
+.profile-image{
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -41,12 +41,12 @@
 
 
 @media only screen and (max-width: 950px) {
-   .site_logo{     
+   .site-logo{     
         height: 30px;
         margin-left: 10px;
    }
 
-   .nav_links > a {
+   .nav-links > a {
     font-size: 14px;
    }
   

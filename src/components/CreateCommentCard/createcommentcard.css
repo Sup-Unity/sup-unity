@@ -1,4 +1,4 @@
-.create_comment_card{
+.create-comment-card{
     width: 94%;
     height: 70px;
     margin: auto;
@@ -16,7 +16,7 @@
        
 }
 
-.profile_img_div{
+.profile-img-div{
     margin-left: 5px;
     margin-right: 5px;
     
@@ -31,7 +31,7 @@
     width: 94%;
 }
 
-.input_comment{
+.input-comment{
     height: 40px;
     width: 94%;
     border: lightgray solid 2px;    

@@ -13,5 +13,5 @@ export default function CommentList({ comment_info }) {
     );
   });
 
-  return <div className="comment_list">{renderedComments}</div>;
+  return <div className="comment-list">{renderedComments}</div>;
 }

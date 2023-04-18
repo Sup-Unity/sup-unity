@@ -16,10 +16,10 @@ export default function IssueFeed({ feed_info, isMaximized }) {
 
   const renderedFeed = feed_info.map((item) => {
     return (
-      <div  key = {feed_info.indexOf(item)} className="feed_item">
-        <div className="feed_title">{item.title}</div>
+      <div  key = {feed_info.indexOf(item)} className="feed-item">
+        <div className="issue-title">{item.title}</div>
         <img
-          className="feed_image"
+          className="issue-image"
           src={imageMap[item.imagename]}
           alt={item.imagename}
         />
@@ -30,7 +30,7 @@ export default function IssueFeed({ feed_info, isMaximized }) {
 
   return (
     
-     <div className="request_feed_side_bar">
+     <div className="issue-feed-side-bar">
       Issue Feed
        <div className="scroll">{renderedFeed}</div>
     </div>

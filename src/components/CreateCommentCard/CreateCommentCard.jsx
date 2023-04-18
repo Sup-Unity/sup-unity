@@ -22,14 +22,14 @@ export default function CreateCommentCard() {
   };
 
   return (
-    <div className="create_comment_card">
-      <div className="profile_img_div">
-        <img className="profile_img" src={edinburgh} alt="profile_image" />
+    <div className="create-comment-card">
+      <div className="profile-img-div">
+        <img className="profile-img" src={edinburgh} alt="profile_image" />
         <a href="#">username</a>
       </div>
       <form className="form" onSubmit={handleFormSubmit}>
         <input
-          className="input_comment"
+          className="input-comment"
           placeholder="Write Comment"
           value={comment}
           onChange={handleChange}

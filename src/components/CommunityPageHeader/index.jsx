@@ -9,13 +9,13 @@ const jpgMap = {
 export default function CommunityPageHeader({ groupName, numMembers, background }) {
   return (
     <div className="header">
-      <div className="title_box">
+      <div className="title-box">
         <div>
-          <h1 className="group_name">{groupName}</h1>
+          <h1 className="group-name">{groupName}</h1>
           <p>{numMembers} members</p>
         </div>
         <div>
-          <button className="join_button">Join</button>
+          <button className="join-button">Join</button>
         </div>
       </div>
     </div>

@@ -12,11 +12,11 @@ const jpgMap = {
 
 export default function CommentCard({ comment, profile_img, username }) {
   return (
-    <div className="comment_card">
-      <div className="comment_header">
+    <div className="comment-card">
+      <div className="comment-header">
         <div>
           <img
-            className="profile_img"
+            className="profile-img"
             src={jpgMap[profile_img]}
             alt={profile_img}
           />
@@ -27,13 +27,13 @@ export default function CommentCard({ comment, profile_img, username }) {
             <AiOutlineLike />
             Like
           </div>
-          <div className="icon_and_label">
+          <div className="icon-and-label">
             <BiComment />
             Comment
           </div>
         </div>
       </div>
-      <div className="comment_body">{comment}</div>
+      <div className="comment-body">{comment}</div>
     </div>
   );
 }

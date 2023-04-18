@@ -21,13 +21,13 @@ export default function Navbar() {
  
     <nav className="nav">
       <img
-        className="site_logo"
+        className="site-logo"
         src="https://www.dropbox.com/s/wpthh8h4hdh0msz/supunity_logo_negative.png?raw=1"
       />
-      <div className="nav_links">
+      <div className="nav-links">
         <a href="#">About</a>
         <a href="#">FAQ</a>
-        <img onClick = {handleClick} className="profile_image" src={bird} alt="bird" />
+        <img onClick = {handleClick} className="profile-image" src={bird} alt="bird" />
       </div>
     </nav>
    

@@ -7,7 +7,6 @@ export default function Banner(){
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    
   }
 
   const handleChange = (event) =>{
