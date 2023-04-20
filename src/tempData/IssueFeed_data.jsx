@@ -20,7 +20,18 @@
       title: "Blood Drive for Red Cross",
       imagename: "blood_drive_red_cross",
       description: "We're hosting a Red Cross blood drive on May 15th from 10:00 AM to 4:00 PM and we need your help! Donating blood is a simple and impactful way to save lives. If you're able to donate, please sign up for an appointment on our website. Walk-ins are also welcome. Thank you for your generosity and support."
-    }
+    },
+    {title: "Missing Dog",
+    imagename: "dog",
+    description: "Our beloved dog, Max, has gone missing! He was last seen near our home on Oak Street earlier today. Max is a friendly black labrador with a white patch on his chest and he's wearing a red collar with his name and our phone number on it."
+    },
+    {title: "Fox keeps eating catfood",
+    imagename: "fox",
+    description: "Attention pet owners! If you've been experiencing a fox eating your cat's food, don't panic! It's actually quite common for wild animals like foxes to be attracted to pet food left outside. To prevent the fox from accessing your cat's food, it's recommended that you bring the food bowl inside at night and feed your cat indoors. You can also try placing the bowl in a secure location or elevating it off the ground to make it more difficult for the fox to reach."
+    },
+    
+
+
   ];
 
   export {feed_info};
