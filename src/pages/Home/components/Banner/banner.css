@@ -51,6 +51,8 @@
     left: 80px;
     top: 250px;
     z-index: 2;
+    height: 50px;
+    
     
     padding: 0px;
     margin: 0px;
@@ -63,15 +65,18 @@
 
 
 .input{
-    height: 50px;
-    padding: 0px;
+    height: 90%;
+    padding: 0px 5px;
+    border-radius: 5px;
 }
 
 .button{
     color: white;
+    font-weight: 400;
     background-color: black;
-    height: 50px;
-    padding: 0px;
+    height: 100%;
+    padding: 0px 5px;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 950px) {
