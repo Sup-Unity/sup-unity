@@ -1,0 +1,47 @@
+.issue-feed {
+  font-size: 24px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 2px lightgray;
+  border: 1px solid lightgray;
+  text-align: center;
+}
+
+.issue-feed-full-page {
+  background-color: hotpink;
+
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 10px 10px;
+}
+
+.issue-feed-side-bar {
+}
+
+.scroll {
+  overflow: auto;
+}
+
+.feed-item {
+  width: 92%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: lightgray solid 2px;
+  border-radius: 5px;
+}
+
+.issue-title {
+  font-size: 15.5px;
+}
+
+.issue-image {
+  width: 84%;
+}
