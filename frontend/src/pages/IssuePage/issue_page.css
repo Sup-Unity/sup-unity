@@ -1,0 +1,47 @@
+.mainlayout {
+  width: 100vw;
+  margin: auto;
+  background-color: rgb(245, 245, 245);
+
+  display: grid;
+  grid-template-columns: 1fr 600px 0.25fr 370px 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas: "space1 main space3 side  space2";
+}
+
+.main {
+  grid-area: main;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 2px lightgray;
+  border: 1px solid lightgray;
+  margin-top: 20px;
+}
+
+.side {
+  grid-area: side;
+  width: 98%;
+
+  margin-top: 20px;
+}
+
+.space2 {
+  grid-area: space2;
+  margin-top: 20px;
+}
+
+.space1 {
+  grid-area: space1;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+  .mainlayout {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
