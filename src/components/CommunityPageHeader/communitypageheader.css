@@ -19,11 +19,14 @@
     --tiny-text: 10px
 }
 
+
+
 .header { 
     height: 200px;
     width: 100vw;
-     
-    background-image: url("../../tempData/images/edinburgh.jpg");
+   
+    background-image: linear-gradient(180deg, #4C46FE, #E4A1F8);
+   /*background-image: url("../../tempData/images/edinburgh.jpg");*/
     
     display: flex;
     justify-content: flex-end;
@@ -36,7 +39,8 @@
     border-radius: 5px; 
     margin-right: 50px;
     margin-bottom: 20px;
-    background-color: white;
+    color: white;
+    background-color: #1B1C30;
     font-weight: 400;
     
     display: flex;
@@ -56,8 +60,11 @@
 .join-button{
     height: 40px;
     padding: 10px;
-    
-    background-color: lightgray;
+    font-weight: 500;
+    background-color:#2A2C49;
+    color: white;
+    border:#E4A1F8 1px solid;
+    border-radius: 5px;
 
     font-size: var(--small-text);
 }

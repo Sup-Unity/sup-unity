@@ -5,7 +5,7 @@ import { useState } from "react";
 import {useContext} from 'react';
 
 import bird from "../../tempData/images/bird.jpg";
-
+import sitelogo from "../../tempData/images/sitelogo.png"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,7 @@ export default function Navbar() {
     <nav className="nav">
       <img
         className="site-logo"
-        src="https://www.dropbox.com/s/wpthh8h4hdh0msz/supunity_logo_negative.png?raw=1"
+        src={sitelogo}
       />
       <div className="nav-links">
         <a href="#">About</a>

@@ -21,7 +21,7 @@ function App() {
     <UserContext.Provider value={{ user, setUser }}>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="logged-in" element={<LoggedInPage />} />
+       
         <Route path="onboarding" element={<OnboardingPage />} />
         <Route path="sign-up" element={<SignUpPage />} />
         <Route path="issue" element={<IssuePage />} />
