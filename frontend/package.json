@@ -10,7 +10,6 @@
     "test": "vitest"
   },
   "dependencies": {
-<<<<<<< HEAD:package.json
     "-": "^0.0.1",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -24,13 +23,6 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.5",
     "react-icons": "^4.8.0",
-=======
-    "@hookform/resolvers": "^2.9.11",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hook-form": "^7.43.5",
-    "react-icons": "^4.9.0",
->>>>>>> 3f5e31fccb61f7c39b3a0ef98e681875d94fb0c6:frontend/package.json
     "react-router-dom": "^6.9.0",
     "zod": "^3.21.4"
   },
