@@ -1,6 +1,11 @@
 import MainLayout from "../../layouts/LoggedOutLayout";
+<<<<<<< HEAD:src/pages/SignUp/index.tsx
+import "./SignUp.scss";
+
+=======
 
 import SUStyles from "./SignUp.module.scss";
+>>>>>>> 3f5e31fccb61f7c39b3a0ef98e681875d94fb0c6:frontend/src/pages/SignUp/index.tsx
 import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";

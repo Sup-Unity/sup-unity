@@ -1,3 +1,5 @@
+<<<<<<< HEAD:src/pages/LoggedIn/index.tsx
+=======
 import { useContext } from "react";
 
 import LIStyles from "./LoggedIn.module.css";
@@ -10,11 +12,20 @@ import { trackedCommitments } from "../../tempData";
 import UserContext from "../../context/user-context";
 
 // Components
+>>>>>>> 3f5e31fccb61f7c39b3a0ef98e681875d94fb0c6:frontend/src/pages/LoggedIn/index.tsx
 import Commitments from "./components/Commitments";
 import DonationsAndFulfilled from "./components/DonationsAndFulfilled";
 import OpenRequests from "./components/OpenRequests";
 import Donate from "../../components/Donate";
 import SubmitRequest from "./components/SubmitRequest";
+import UserContext from "../../context/user-context";
+import type { TTrackedCommitment } from "../../types";
+import "./LoggedIn.css";
+
+import { useContext } from "react";
+
+import { trackedCommitments } from "../../tempData";
+
 
 const LoggedInPage = () => {
   const { user } = useContext(UserContext);

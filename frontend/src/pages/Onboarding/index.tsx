@@ -1,9 +1,15 @@
+<<<<<<< HEAD:src/pages/Onboarding/index.tsx
+import UserContext from "../../context/user-context";
+import "./Onboarding.css";
+=======
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import OBStyles from "./Onboarding.module.css";
+>>>>>>> 3f5e31fccb61f7c39b3a0ef98e681875d94fb0c6:frontend/src/pages/Onboarding/index.tsx
 
-import UserContext from "../../context/user-context";
+import React, { useContext, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const OnboardingPage = () => {
   const { setUser } = useContext(UserContext);

@@ -1,8 +1,6 @@
-// Temp Data
-import { localPosts } from "../../../../tempData";
-
-// Components
 import LocalPost from "../../../../components/Posts/LocalPost";
+
+import { localPosts } from "../../../../tempData";
 
 const OpenRequests = () => {
   return (

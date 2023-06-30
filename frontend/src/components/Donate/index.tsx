@@ -1,5 +1,11 @@
+<<<<<<< HEAD:src/components/Donate/index.tsx
+import "./Donate.css";
+=======
 import { useState } from "react";
 import DStyles from "./Donate.module.scss";
+>>>>>>> 3f5e31fccb61f7c39b3a0ef98e681875d94fb0c6:frontend/src/components/Donate/index.tsx
+
+import { useState } from "react";
 
 type Props = {};
 

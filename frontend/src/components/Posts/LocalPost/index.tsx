@@ -1,5 +1,4 @@
 import type { TLocalPost } from "../../../types";
-
 import "./LocalPost.css";
 
 const LocalPost = ({

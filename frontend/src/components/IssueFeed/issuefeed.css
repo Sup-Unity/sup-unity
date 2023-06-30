@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.issuefeedtitle{
+    align-self: left;
+}
+
+.cardstyle{
+    border: solid 2px;
+    border-image: linear-gradient(45deg, #4C46FE, #E4A1F8) 1;
+    
+}
+
+.darkfill{
+    background-color: #2A2C49;
+}
+
+.thumbup-style{
+    color:  #E4A1F8;
+}
+
+/* Full Page Feed */
+.issue-feed-full{  
+    background-color: #1B1C30;
+    
+    color: white;
+
+
+
+}
+
+.feed-layout-full{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    color: white;
+
+}
+
+.feed-item-full{
+    color: white;
+
+    border: solid black 2px;color: white;
+
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.issue-title-full{
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+
+
+}
+
+.issue-image-full{
+    width: 90%;
+
+}
+
+.issue-description-full{
+    /*Note - there is no issue-description-side 
+    because issue descriptions are hidden when the feed is
+    only a sidebar */
+
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+/* Side Page Feed */
+
+.issue-feed-side{
+    background-color: yellow;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 2px lightgray;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+.feed-layout-side{
+    overflow: auto;
+
+}
+
+.feed-item-side{
+    width: 92%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 12px; 
+    border: lightgray solid 2px;
+}
+
+.issue-title-side {
+    font-size: 15.5px;  
+}
+
+.issue-image-side{
+    width: 84%;    
+}
+
+
+/* Mobile Responsiveness */
+
+@media (max-width)
+
+
+
+

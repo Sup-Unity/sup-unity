@@ -1,12 +1,14 @@
-import { useState } from "react";
-
 import LoginForm from "../../components/LoginForm";
-
 import Banner from "./components/Banner";
 import HelpBtns from "./components/HelpBtns";
 import Post from "../../components/Posts/Post";
+import "./homepage.css";
 
+<<<<<<< HEAD:frontend/src/pages/Home/OldHome.tsx
+import { useState } from "react";
+=======
 import HPStyles from "./HomePage.module.scss";
+>>>>>>> 3f5e31fccb61f7c39b3a0ef98e681875d94fb0c6:src/pages/Home/index.tsx
 
 type TSortBy = "POPULAR" | "LOCAL" | "NEW";
 
