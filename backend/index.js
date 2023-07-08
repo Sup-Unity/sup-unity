@@ -17,6 +17,10 @@ app.get("/error", (req, res) => {
   res.status(500).send({ error: "THIS IS AN ERROR" });
 });
 
+app.get("*", (req, res) => {
+  res.status(400).send("Route does not exist.");
+});
+
 app.listen(PORT, () => {
   console.log(`Listening on port: ${PORT}`);
 });
