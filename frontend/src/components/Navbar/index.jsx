@@ -4,7 +4,8 @@ import "./navbar.css";
 import { useState } from "react";
 import { useContext } from "react";
 
-import bird from "../../tempData/images/bird.jpg";
+// import bird from "../../tempData/images/bird.jpg";
+import bird from "../../tempData/images/tempBird.jpg";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
