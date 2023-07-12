@@ -6,9 +6,12 @@ import { MdDone } from "react-icons/md";
 import { BiComment, BiLike, BiEdit } from "react-icons/bi";
 import { AiFillLike, AiOutlineLike } from "react-icons/ai";
 
-import bird from "../../../../tempData/images/bird.jpg";
-import dog from "../../../../tempData/images/dog.jpeg";
-import cat from "../../../../tempData/images/cat.jpeg";
+// import bird from "../../../../tempData/images/bird.jpg";
+import bird from "../../../../tempData/images/tempBird.jpg";
+// import dog from "../../../../tempData/images/dog.jpeg";
+import dog from "../../../../tempData/images/tempDog.jpg";
+// import cat from "../../../../tempData/images/cat.jpeg";
+import cat from "../../../../tempData/images/tempCat.jpg";
 
 /* import { LoginContext } from "../../context/LoginContext"; */
 
