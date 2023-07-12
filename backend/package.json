@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build-fe": "cd ../frontend && yarn install && yarn build"
+    "build": "yarn install && cd ../frontend && yarn install && yarn build"
   },
   "dependencies": {
     "express": "^4.18.2",
