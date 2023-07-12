@@ -1,4 +1,4 @@
-import "./aboutcommunity.css";
+import "./AboutCommunity.css";
 
 export default function AboutCommunity({ description }) {
   return (

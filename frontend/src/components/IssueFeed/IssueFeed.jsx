@@ -1,9 +1,15 @@
 import "./issuefeed.css";
 
-import blood_drive_red_cross from "../../tempData/images/blood-drive-red-cross.jpeg";
-import donations_homeless_shelter from "../../tempData/images/donations-homeless-shelter.jpg";
-import food_drive_local_food_bank from "../../tempData/images/food-drive-local-food-bank.jpeg";
-import volunteers_neighborhood_cleanup from "../../tempData/images/volunteers-neighborhood-cleanup.jpeg";
+// import blood_drive_red_cross from "../../tempData/images/blood-drive-red-cross.jpeg";
+// import donations_homeless_shelter from "../../tempData/images/donations-homeless-shelter.jpg";
+// import food_drive_local_food_bank from "../../tempData/images/food-drive-local-food-bank.jpeg";
+// import volunteers_neighborhood_cleanup from "../../tempData/images/volunteers-neighborhood-cleanup.jpeg";
+
+// TEMPORARY IMAGES
+import blood_drive_red_cross from "../../tempData/images/temp-blood-drive-red-cross.jpg";
+import donations_homeless_shelter from "../../tempData/images/temp-donations-homeless-shelter.jpg";
+import food_drive_local_food_bank from "../../tempData/images/temp-food-drive-local-food-bank.jpg";
+import volunteers_neighborhood_cleanup from "../../tempData/images/temp-volunteers-neighborhood-cleanup.jpg";
 
 const imageMap = {
   blood_drive_red_cross,
