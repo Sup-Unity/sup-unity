@@ -2,7 +2,8 @@ import "./createcommentcard.css";
 
 import { useState } from "react";
 
-import edinburgh from "../../tempData/images/edinburgh.jpg";
+// import edinburgh from "../../tempData/images/edinburgh.jpg";
+import edinburgh from "../../tempData/images/tempEdinburgh.jpg";
 
 export default function CreateCommentCard() {
   const [comment, setComment] = useState("");

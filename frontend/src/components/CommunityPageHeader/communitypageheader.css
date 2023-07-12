@@ -21,7 +21,8 @@
   height: 200px;
   width: 100vw;
 
-  background-image: url("../../tempData/images/edinburgh.jpg");
+  /* background-image: url("../../tempData/images/edinburgh.jpg"); */
+  background-image: url("../../tempData/images/tempEdinburgh.jpg");
 
   display: flex;
   justify-content: flex-end;

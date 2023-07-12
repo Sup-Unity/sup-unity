@@ -3,7 +3,8 @@ import "./commentcard.css";
 import { BiComment } from "react-icons/bi";
 import { AiOutlineLike } from "react-icons/ai";
 
-import edinburgh from "../../tempData/images/edinburgh.jpg";
+// import edinburgh from "../../tempData/images/edinburgh.jpg";
+import edinburgh from "../../tempData/images/tempEdinburgh.jpg";
 
 const jpgMap = {
   edinburgh,
