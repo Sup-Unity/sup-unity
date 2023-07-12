@@ -1,10 +1,10 @@
 import "./communitypageheader.css";
 
-import edinburgh from "../../tempData/images/edinburgh.jpg";
+// import edinburgh from "../../tempData/images/edinburgh.jpg";
 
-const jpgMap = {
-  edinburgh,
-};
+// const jpgMap = {
+//   edinburgh,
+// };
 
 export default function CommunityPageHeader({
   groupName,
