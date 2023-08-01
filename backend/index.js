@@ -1,3 +1,4 @@
+const path = require("path");
 const express = require("express");
 const app = express();
 const PORT = 8080;
@@ -18,7 +19,9 @@ app.get("/error", (req, res) => {
 });
 
 app.get("*", (req, res) => {
-  res.status(400).send("Route does not exist.");
+  res
+    .status(200)
+    .sendFile(path.resolve(__dirname, "../frontend/build", "index.html"));
 });
 
 app.listen(PORT, () => {
