@@ -18,6 +18,9 @@ app.get("/error", (req, res) => {
   res.status(500).send({ error: "THIS IS AN ERROR" });
 });
 
+// Get Frontend React app
+app.use(express.static(path.resolve(__dirname, "../client/build")));
+
 app.get("*", (req, res) => {
   res
     .status(200)
