@@ -7,6 +7,7 @@ const PORT = 8080;
 const authRoutes = require("./routes/authRoutes");
 const dbRoutes = require("./routes/dbRoutes");
 
+app.use(express.static("public"));
 app.use("/auth", authRoutes);
 app.use("/db", dbRoutes);
 
