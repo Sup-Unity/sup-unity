@@ -8,11 +8,13 @@ import { TUser } from "./types";
 import UserContext from "./context/user-context";
 
 // Pages
-import Home from "./pages/Home";
+import Home from "./pages/Home/OldHome";
 import LoggedInPage from "./pages/LoggedIn";
 import OnboardingPage from "./pages/Onboarding";
 import SignUpPage from "./pages/SignUp";
 import ProfilePage from "./pages/Profile";
+import IssuePage from "./pages/IssuePage/IssuePage";
+import IssueFeedPage from "./pages/IssueFeed/IssueFeedPage";
 
 function App() {
   const [user, setUser] = useState<TUser | null>(null);
@@ -24,6 +26,8 @@ function App() {
         <Route path="onboarding" element={<OnboardingPage />} />
         <Route path="sign-up" element={<SignUpPage />} />
         <Route path="profile" element={<ProfilePage />} />
+        <Route path="issue" element={<IssuePage />} />
+        <Route path="issuefeed" element={<IssueFeedPage />} />
       </Routes>
     </UserContext.Provider>
   );

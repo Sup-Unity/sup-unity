@@ -1,3 +1,4 @@
+const path = require("path");
 const express = require("express");
 const app = express();
 const PORT = 8080;
@@ -6,6 +7,7 @@ const PORT = 8080;
 const authRoutes = require("./routes/authRoutes");
 const dbRoutes = require("./routes/dbRoutes");
 
+app.use(express.static("public"));
 app.use("/auth", authRoutes);
 app.use("/db", dbRoutes);
 
@@ -15,6 +17,15 @@ app.get("/test", (req, res) => {
 
 app.get("/error", (req, res) => {
   res.status(500).send({ error: "THIS IS AN ERROR" });
+});
+
+// Get Frontend React app
+app.use(express.static(path.resolve(__dirname, "../client/build")));
+
+app.get("*", (req, res) => {
+  res
+    .status(200)
+    .sendFile(path.resolve(__dirname, "../frontend/build", "index.html"));
 });
 
 app.listen(PORT, () => {
